@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     background-color: rgb(161, 193, 193);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+display: flex;
+flex-direction: column;
+padding:40px;
+width: 500px;
+
+}
+
+input, textarea, button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 10px; 
+}
